@@ -1,0 +1,60 @@
+body{
+    font-size: 16px; /* 1 em */
+    margin: 0px auto;
+    /* Recomendacion del cliente*/
+    max-width: 1850px;
+    max-height: 1024px;
+    background-color: #EFEFEF;
+}
+
+header{
+    background-color: #235E92;
+}
+
+#logo{
+    position: relative;
+    left: 775px;
+}
+
+header nav{
+    background-color: #EFEFEF;
+}
+
+header nav ul{
+    float: right;
+    margin: 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li img{
+    width: 60%;
+    height: auto;
+    margin: 0px;
+}
+
+#sec01art01{
+    margin-top: 55px;
+    margin-left: 15px;
+}
+
+#sec01art01 ul{
+    background-color: #1E4972;
+    width: 186px;
+    color: white;
+    font-size: 0.8em;
+    list-style-type: none;
+    
+}
+
+#sec01art01 ul li{
+    line-height-step: 60px;
+    
+}
+
+#panel{
+    margin-bottom: -17px;
+}
+
