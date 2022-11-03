@@ -1,11 +1,13 @@
 body{
-    font-size: 16px; /* 1 em */
+    font-size: 15px; /* 1 em */
     margin: 0px auto;
     /* Recomendacion del cliente*/
-    max-width: 1850px;
+    max-width: 1024px;
     max-height: 1024px;
     background-color: #EFEFEF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 header{
     background-color: #235E92;
@@ -13,7 +15,7 @@ header{
 
 #logo{
     position: relative;
-    left: 775px;
+    margin-left: 37%;
 }
 
 header nav{
@@ -21,23 +23,30 @@ header nav{
 }
 
 header nav ul{
+    
     float: right;
     margin: 0px;
 }
 
 header nav ul li{
     display: inline-block;
+    margin-left: -50px;
+    
 }
 
 header nav ul li img{
     width: 60%;
-    height: auto;
-    margin: 0px;
+    float: right;
+}
+
+#seccion01{
+    margin-left: 15px;
+    width: 23%;
 }
 
 #sec01art01{
     margin-top: 55px;
-    margin-left: 15px;
+    width: 23%;
 }
 
 #sec01art01 ul{
@@ -46,15 +55,144 @@ header nav ul li img{
     color: white;
     font-size: 0.8em;
     list-style-type: none;
+
     
 }
 
 #sec01art01 ul li{
-    line-height-step: 60px;
+    line-height: 25px;
+    margin-left: -20px;
     
 }
 
 #panel{
-    margin-bottom: -17px;
+    margin-bottom: -18px;
 }
 
+#sec01art02{
+    background-color: white;
+    width: 228px;
+}
+
+#progress{
+    vertical-align: middle;
+    width: 32px;
+    margin-bottom: 6px;
+}
+ #progressText{
+    background-color: #235E92;
+    margin-left: -6px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-right: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.77em;
+}
+
+.barra{
+    width: 225px;
+    margin-bottom: 10px;
+}
+
+#seccion02{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -605px;
+}
+
+#seccion02 section article{
+    display: inline-block;
+    width: 23%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+#verde{
+    background-color: #1BA822;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+}
+
+#verde img{
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+#azul{
+    background-color: #1B6DA9;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#azul img{
+    width: 50px;
+    height: 50px;
+}
+
+#morado{
+    background-color: #7D1AA3;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#morado img{
+    width: 50px;
+    height: 50px;
+}
+
+#rojo{
+    background-color: #A41B19;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#rojo img{
+    width: 50px;
+    height: 50px;
+}
+
+#graficas {
+    width: 700px;
+}
+
+#usuarios article{
+    background-color: #4C6AB0;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#usuarios article img{
+    width: 150px;
+    height: 150px;
+}
+
+#usuarios input{
+    background-color: #5EC2E0;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 6px;
+}

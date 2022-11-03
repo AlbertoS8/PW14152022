@@ -2,6 +2,7 @@ body{
     margin: 0px auto;
     font-size: 16px; /* 1em */
     max-width: 1024px;
+    font-family: Helvetica;
 }
 
 header{
@@ -43,6 +44,10 @@ header nav ul li{
 
 #logo{
     margin-top: -150px;
+}
+
+#offer{
+    margin-bottom: -100px;
 }
 
 #seccion01{
